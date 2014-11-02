@@ -1,0 +1,8 @@
+{
+  "name": "mongojsusage",
+  "description": "Final Version!",
+  "version": "1.0",
+  "dependencies": {
+    "mongojs":"0.15.1"
+  }
+}
