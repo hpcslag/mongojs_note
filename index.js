@@ -47,3 +47,7 @@ db.table.findAndModify({
 }, function(err, doc, lastErrorObject) {
     // doc.tag === 'maintainer'
 });
+/**
+ * GOD MODE
+ */
+ db.table.drop();
