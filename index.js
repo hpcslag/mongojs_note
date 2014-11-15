@@ -6,6 +6,15 @@ var mongojs = require('mongojs');
 var db = mongojs('test',['table']); //db -> 'test', collections -> 'table'
 
 /**
+* Search All(Find())
+* @class
+*/
+db.table.find(function(err,doc){
+	
+	doc return array object!
+});
+
+/**
 * Search Data (FindOne)
 * @class 
 */
